@@ -3,8 +3,7 @@ import io
 import os
 import sys
 
-##sys.path.append(os.path.abspath('..//src'))
-sys.path += ['..\\src'] 
+sys.path.append(os.path.abspath('..//src'))
 
 from user_functions import *
 
