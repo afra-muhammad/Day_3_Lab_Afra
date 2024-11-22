@@ -5,7 +5,7 @@ import sys
 
 sys.path.append(os.path.abspath('..//src'))
 
-from user_functions import some_function
+from user_functions import *
 
 def test_email_with_user_input_correct(monkeypatch):
     monkeypatch.setattr('sys.stdin', io.StringIO('petra@adaltas.com'))

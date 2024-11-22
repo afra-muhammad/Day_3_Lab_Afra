@@ -1,2 +1,3 @@
 [pytest]
-pythonpath = . /UNIT_TEST_3/src
+##pythonpath = . /UNIT_TEST_3/src
+pythonpath = C:/Users/Afra Muhammad/Day_3_Lab_Afra/UNIT_TEST_3/src
