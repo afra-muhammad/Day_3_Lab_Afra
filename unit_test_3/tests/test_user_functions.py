@@ -1,7 +1,9 @@
 import pytest
 import io
+import os
 
 ##sys.path.append(os.path.abspath('..//src'))
+sys.path += ['..\\src'] 
 
 from user_functions import *
 
